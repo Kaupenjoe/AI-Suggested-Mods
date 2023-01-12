@@ -1,0 +1,8 @@
+{
+  "item.gpt-mod.teleporter_orb": "Teleporter Orb",
+  "item.gpt-mod.fire_orb": "Fire Orb",
+  "item.gpt-mod.drone_remote": "Drone Remote",
+
+  "itemGroup.gpt-mod.magic-tab": "Magic AI Tab",
+  "itemGroup.gpt-mod.drone-tab": "Drone AI Tab"
+}

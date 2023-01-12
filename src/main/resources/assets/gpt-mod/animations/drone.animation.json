@@ -1,0 +1,126 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.drone.flying": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"wing_south_west": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 360, 0]
+						},
+						"1.0": {
+							"vector": [0, 720, 0]
+						}
+					}
+				},
+				"wing_south_east": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, -360, 0]
+						},
+						"1.0": {
+							"vector": [0, -720, 0]
+						}
+					}
+				},
+				"wing_north_west": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, -360, 0]
+						},
+						"1.0": {
+							"vector": [0, -720, 0]
+						}
+					}
+				},
+				"wing_north_east": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 360, 0]
+						},
+						"1.0": {
+							"vector": [0, 720, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.drone.idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"wing_south_west": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, 720, 0]
+						}
+					}
+				},
+				"wing_north_west": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, -720, 0]
+						}
+					}
+				},
+				"wing_south_east": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, -720, 0]
+						}
+					}
+				},
+				"All": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 1.5, 0]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"wing_north_east": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, 720, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
